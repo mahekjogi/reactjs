@@ -14,14 +14,10 @@ function App() {
  const addValue = () => {
     //console.log("value added", Math.random()); this is a just check it it's run properly or not 
    
-    //counter = counter + 1
+    counter = counter + 1
     // setCounter(counter + 1)//you write like this if you not declare as above line 
-    setCounter(prevCounter => prevCounter + 1)//if you get the value above like a 14 line so you just declare here 
+    setCounter(counter)//if you get the value above like a 14 line so you just declare here 
      //console.log("clicked", counter);
-     setCounter(prevCounter => prevCounter + 1)
-     setCounter(prevCounter => prevCounter + 1)
-     setCounter(prevCounter => prevCounter + 1)
-     setCounter(prevCounter => prevCounter + 1)
   }
   return (
     <>
